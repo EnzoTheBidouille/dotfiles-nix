@@ -8,7 +8,7 @@
   };
 
   outputs = { self, nixpkgs, home-manager, ... }: {
-    nixosConfigurations.mypc = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.thebidouille = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
         ./hosts/thebidouille/configuration.nix
