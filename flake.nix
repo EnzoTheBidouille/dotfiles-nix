@@ -11,7 +11,7 @@
     nixosConfigurations.mypc = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
-        ./hosts/mypc/configuration.nix
+        ./hosts/thebidouille/configuration.nix
         home-manager.nixosModules.home-manager
         {
           home-manager.users.enzo = import ./home/enzo/home.nix;
