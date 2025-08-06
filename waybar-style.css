@@ -1,0 +1,29 @@
+* {
+	font-family: "JetBrains Mono", sans-serif;
+	font-size: 13px;
+	color: #2e3440;
+}
+
+window#waybar {
+	background: #f8f8f8;
+	border-radius: 12px;
+}
+
+#workspaces button {
+	padding: 0 8px;
+	color: #555555;
+}
+
+#workspaces button.active {
+	background: #007aff;
+	color: white;
+	border-radius: 8px;
+}
+
+#clock {
+	font-weight: bold;
+}
+
+#keyboard-state {
+	padding: 0 10px;
+}
