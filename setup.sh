@@ -5,6 +5,8 @@ DOTFILES_DIR="$HOME/dotfiles"
 
 echo "🔗 Création des liens symboliques..."
 
+mkdir -p ~/.config/hypr ~/.config/waybar ~/.config/kitty
+
 ln -sf "$DOTFILES_DIR/hypr/hyprland.conf" "$HOME/.config/hypr/hyprland.conf"
 ln -sf "$DOTFILES_DIR/waybar/config" "$HOME/.config/waybar/config"
 ln -sf "$DOTFILES_DIR/waybar/style.css" "$HOME/.config/waybar/style.css"
