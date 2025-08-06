@@ -17,7 +17,6 @@
 	users.users.enzo = {
 		isNormalUser = true;
 		extraGroups = ["wheel" "networkmanager"];
-		initialPassword = "root";
 		shell = pkgs.zsh;
 	};
 
